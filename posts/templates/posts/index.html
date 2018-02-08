@@ -1,0 +1,19 @@
+{% extends 'posts/layout.html' %}
+
+{% block content %}
+<!--<h3 class="center-align">{{title}}</h3>-->
+<ul>
+    {% for post in posts %}
+        <br>
+        <br>
+        <div class="border">
+            <li class="collection-item"><a href="/posts/details/{{post.id}}">{{post.title}}</a></li>
+            <br>
+            <div class="card-content">
+                {{post.body}}
+            </div>
+            <br>
+        </div>
+    {% endfor %}
+</ul>
+{% endblock %}

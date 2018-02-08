@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Blog</title>
+    {% load static %}
+<script src="{% static 'js/pizza_store.js' %}"></script>
+<link href="{% static 'css/pizza_store.css' %}"
+rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+    <header class="container center-align">
+        <h3 class="headerText">Billboard</h3>
+    </header>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+        <br>
+        
+
+        <div class="plus_box">
+          <a class="waves-effect waves-light btn" class="center-align"><i class="fa fa-plus"></i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

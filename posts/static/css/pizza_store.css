@@ -1,0 +1,31 @@
+.headerText{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+.border {
+    border: 3px solid #00b7ef ;
+    padding: 20px;
+}
+
+.collection-item {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #00b7ef;
+}
+
+.card-content {
+    font-family: Arial;
+    font size : 16px;
+    color:#c1bfc0;
+}
+
+.plus_box {
+    border: 2px dashed black;
+}
+
+.waves-effect {
+    margin-left: 46.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
